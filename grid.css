@@ -1,0 +1,594 @@
+/* Flexbox, navigationsbaren */
+ul{ 
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+/* Forsiden */
+
+.forside_div_2{
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+}
+.forside{
+    grid-column: 7;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+}
+.f_beskrivelse{
+    grid-column: 6 / 9;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.f_underbeskrivelse{
+    grid-column: 2 / 8;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.kamera_image{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+    overflow: hidden;
+    opacity: 0.5;
+}
+/* .computer_kodning{
+    grid-column: 7 / 14;
+    grid-row: 4 span;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
+.f_underunderbeskrivelse{
+    grid-column: 2 / 8;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/* .kamera{
+    grid-column: 2 / 7;
+    grid-row: 7 span;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
+/* .tre_underbeskrivelse{
+    grid-column: 8 / 13;
+    grid-row: 8;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
+/* .computer_redigering{
+    grid-column: 8 / 13;
+    grid-row: 9;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
+.forside_billeder{
+    grid-column: 2 / 8;
+    grid-row: 5 span;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* Om mig */
+
+.ommig_div_2{
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+}
+.ommig{
+    grid-column: 6 / 9;
+    grid-row: 1 span;
+    display: flex;
+    justify-content: center;
+}
+.o_beskrivelse{
+    grid-column: 8 / 12;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.o_underbeskrivelse{
+    grid-column: 8 / 12;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.o_uubeskrivelse{
+    grid-column: 8 / 12;
+    grid-row: 5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.o_billede{
+    grid-column: 3 / 8;
+    grid-row: 3 / 4 span;
+    display: flex;
+    justify-content: center;
+}
+/* .o_billede_2{
+    grid-column: 8 / 12;
+    grid-row: 5 / 6 span;
+    display: flex;
+    justify-content: center;
+} */
+.cv{
+    grid-column: 1 / 14;
+    grid-row: 7;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.cv_underbeskrivelse{
+    grid-column: 1 / 14;
+    grid-row: 8;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Portfolio */
+
+/* Gridcontainer for hele siden */
+.portfolio_div_2{
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+}
+
+/* Overskrift */
+.portfolio{
+    grid-column: 7;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+}
+.p_underbeskrivelse{
+    grid-column: 1 / 14;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* De 5 forskellige temaer, kort beskrevet */
+.tema_2_overskrift{
+    grid-column: 4 / 7;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tema_2_beskrivelse{
+    grid-column: 4 / 7;
+    grid-row: 5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tema_4_overskrift{
+    grid-column: 8 / 11;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tema_4_beskrivelse{
+    grid-column: 8 / 11;
+    grid-row: 5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tema_3_overskrift{
+    grid-column: 2 / 5;
+    grid-row: 6;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tema_3_beskrivelse{
+    grid-column: 2 / 5;
+    grid-row: 7;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tema_5_overskrift{
+    grid-column: 6 / 9;
+    grid-row: 6;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tema_5_beskrivelse{
+    grid-column: 6 / 9;
+    grid-row: 7;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tema_6_overskrift{
+    grid-column: 10 / 13;
+    grid-row: 6;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tema_6_beskrivelse{
+    grid-column: 10 / 13;
+    grid-row: 7;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Grundlæggende web, dokumentation */
+.grund_web{
+    grid-column: 1 / 14;
+    grid-row: 8;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.moodboard_div{
+    grid-column: 2 / 9;
+    grid-row: 9;
+    display: flex;
+    justify-content: center;
+}
+.layout{
+    grid-column: 8 / 13;
+    grid-row: 9;
+    display: flex;
+    justify-content: center;
+}
+.emnesite{
+    grid-column: 1 / 14;
+    grid-row: 10;
+    display: flex;
+    justify-content: center;
+}
+.link_emnesite{
+    grid-column: 1 / 14;
+    grid-row: 14;
+    display: flex;
+    justify-content: center;
+}
+.website_beskrivelse{
+    grid-column: 1 / 14;
+    grid-row: 12;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.website_p_beskrivelse{
+    grid-column: 4 / 11;
+    grid-row: 13;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Website{
+    grid-column: 1 / 14;
+    grid-row: 14;
+    display: flex;
+    justify-content: center;
+}
+.emnesite_beskrivelse{
+    grid-column: 4 / 11;
+    grid-row: 15;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.emnesite_p_beskrivelse{
+    grid-column: 4 / 11;
+    grid-row: 16;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Grundlæggende ux, dokumentation */
+.ux_div_2{
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+}
+.grund_ux{
+    grid-column: 1 / 14;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.shapes{
+    grid-column: 1 / 8;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+}
+.moodboard_ux{
+    grid-column: 8 / 13;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+}
+.layout_ux{
+    grid-column: 1 / 8;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+}
+.prototype_ux{
+    grid-column: 8 / 13;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+}
+.løsning_ux_h2{
+    grid-column: 1 / 14;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.løsning_ux_p{
+    grid-column: 4 / 11;
+    grid-row: 5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.link_ux{
+    grid-column: 1 / 14;
+    grid-row: 6;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.pp_1{
+    grid-column: 1 / 8;
+    grid-row: 7;
+    display: flex;
+    justify-content: center;
+}
+.pp_2{
+    grid-column: 8 / 13;
+    grid-row: 7;
+    display: flex;
+    justify-content: center;
+}
+.pp_3{
+    grid-column: 1 / 8;
+    grid-row: 8;
+    display: flex;
+    justify-content: center;
+}
+.pp_4{
+    grid-column: 8 / 13;
+    grid-row: 8;
+    display: flex;
+    justify-content: center;
+}
+.pp_5{
+    grid-column: 1 / 8;
+    grid-row: 9;
+    display: flex;
+    justify-content: center;
+}
+.pp_6{
+    grid-column: 8 / 13;
+    grid-row: 9;
+    display: flex;
+    justify-content: center;
+}
+.løsning_ux_h2_2{
+    grid-column: 1 / 14;
+    grid-row: 10;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.løsning_ux_p_2{
+    grid-column: 4 / 11;
+    grid-row: 11;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Animation */
+.animation_div_2{
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+}
+.animation{
+    grid-column: 1 / 14;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.diagram{
+    grid-column: 1 / 8;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+}
+.ide{
+    grid-column: 8 / 13;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+}
+.spil_1{
+    grid-column: 1 / 8;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+}
+.spil_2{
+    grid-column: 8 / 13;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+}
+.elementer{
+    grid-column: 1 / 14;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.temaopgave_h2{
+    grid-column: 1 / 14;
+    grid-row: 5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.temaopgave_p{
+    grid-column: 4 / 11;
+    grid-row: 6;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Grundlæggende indhold */
+.grund_indhold{
+    grid-column: 1 / 14;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.billeder_cafe{
+    grid-column: 1 / 14;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.video_cafe{
+    grid-column: 1 / 14;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.redesign_h2{
+    grid-column: 4 / 11;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.redesign_p{
+    grid-column: 4 / 11;
+    grid-row: 5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.link_indhold{
+    grid-column: 7;
+    grid-row: 6;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.pilotesite_1{
+    grid-column: 1 / 8;
+    grid-row: 7;
+    display: flex;
+    justify-content: center;
+}
+.pilotesite_2{
+    grid-column: 8 / 13;
+    grid-row: 7;
+    display: flex;
+    justify-content: center;
+}
+.pilotesite_h2{
+    grid-column: 1 / 14;
+    grid-row: 8;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.pilotesite_p{
+    grid-column: 4 / 11;
+    grid-row: 9;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.pilote_link{
+    grid-column: 7;
+    grid-row: 10;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Portfolio eksamen */
+.eksamen_div_2{
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+}
+.port_eksamen{
+    grid-column: 1 / 14;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} 
+.port_eksamen{
+    grid-column: 1 / 14;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.port_eksamen_p{
+    grid-column: 4 / 11;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.port_eksamen_p_2{
+    grid-column: 4 / 11;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.port_link{
+    grid-column: 1 / 14;
+    grid-row: 5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

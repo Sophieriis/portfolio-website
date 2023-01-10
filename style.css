@@ -1,0 +1,235 @@
+/* Fjerner "underlines på ord */
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(220, 239, 248);
+    padding-bottom:80px;
+}
+
+
+/* Generel styling af tekst */
+
+p{
+    font-size: 12px;
+    line-height: 2.0;
+}
+h2{
+    font-size: 15px;
+}
+h1{
+    font-size: 25px;
+}
+
+/* Styling af navbar */
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: #efa35c; 
+}
+a.visited{
+    text-decoration: none;
+    color: black;
+}
+a.link{
+    text-decoration: none;
+    color: black;
+}
+a.active{
+    text-decoration: none
+}
+nav ul{
+    list-style: none;
+    margin-top: 1rem;
+    
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(195, 221, 241);
+}
+
+/* Forside */
+
+.forside{
+    padding: 25px;
+    padding-bottom: 20px;
+}
+.f_beskrivelse{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.f_underbeskrivelse{
+    margin-top: 160px;
+    padding: 20px;
+    /* background-color: #b8d8db; 
+    border-radius: 20px; */
+}
+.f_underunderbeskrivelse{ 
+    padding: 20px;
+    /* background-color: #b8d8db; 
+    border-radius: 20px; */
+}
+.kamera_image{
+    position: absolute;
+    z-index: -1;
+}
+.forside_billeder{
+    padding-top: 40px;
+    margin: 20px;
+}
+
+/* Om mig side */
+
+.ommig{
+    padding-bottom: 20px;
+}
+img{
+    border-radius: 20px;
+}
+.o_billede{
+    padding: 25px;
+}
+
+/* Portfolio side */
+
+
+/* Overskrift + tekstsbox med farve */
+.tema_2_overskrift{
+    padding: 25px;
+    padding-top: 80px;
+}
+.tema_2_beskrivelse{
+    padding: 20px;
+    background-color: #aed9dd; 
+    border-radius: 20px;
+}
+.tema_3_overskrift{
+    padding: 25px;
+    padding-top: 80px;
+}
+.tema_3_beskrivelse{
+    padding: 20px;
+    background-color: #aed9dd; 
+    border-radius: 20px;
+}
+.tema_4_overskrift{
+    padding: 25px;
+    padding-top: 80px;
+}
+.tema_4_beskrivelse{
+    padding: 20px;
+    background-color: #aed9dd; 
+    border-radius: 20px;
+}
+.tema_5_overskrift{
+    padding: 25px;
+    padding-top: 80px;
+}
+.tema_5_beskrivelse{
+    padding: 20px;
+    background-color: #aed9dd; 
+    border-radius: 20px;
+}
+.tema_6_overskrift{
+    padding: 25px;
+    padding-top: 80px;
+}
+.tema_6_beskrivelse{
+    padding: 20px;
+    background-color: #aed9dd; 
+    border-radius: 20px;
+}
+
+/* Grundlæggende web */
+.grund_web{
+    padding-bottom: 50px;
+}
+.website_p_beskrivelse, .emnesite_p_beskrivelse{
+    font-size: 15px;
+}
+.emnesite{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.Website{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+
+/* Grundlæggende ux */
+.grund_ux{
+    padding-bottom: 50px;
+}
+.layout_ux{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.prototype_ux{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.løsning_ux_p{
+    font-size: 15px;
+}
+.pp_1, .pp_2, .pp_3, .pp_4, .pp_5, .pp_6{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.løsning_ux_p_2{
+    font-size: 15px;
+}
+
+/* Animation */
+.animation{
+    padding-bottom: 50px;
+}
+.temaopgave_p{
+    font-size: 15px;
+}
+.elementer{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+/* Grundlæggende indhold */
+.grund_indhold{
+    padding-bottom: 50px;
+}
+.video_cafe{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.redesign_p, .pilotesite_p{
+    font-size: 15px;
+}
+.spil_1{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.spil_2{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.pilotesite_1{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.pilotesite_2{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.pilote_link{
+    font-size: 12px;
+}
+.redesign_h2{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+/* Portfolio eksamen */
+.port_eksamen_p{
+    font-size: 15px;
+}
